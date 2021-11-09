@@ -16,7 +16,12 @@ public class ProvaGithub {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Hello, world");
+        salute("Fisciano");
+        salute("Universe");
+        salute("world");
+    }
+    private static void salute(String name){
+        System.out.println("Hello, " + name);
     }
     
 }
